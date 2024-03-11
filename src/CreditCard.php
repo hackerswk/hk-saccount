@@ -9,7 +9,8 @@
 
 namespace Stanleysie\HkSaccount;
 
-class CreditCard {
+class CreditCard 
+{
     // Database connection
     private $database;
 

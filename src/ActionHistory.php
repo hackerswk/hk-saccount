@@ -9,7 +9,8 @@
 
 namespace Stanleysie\HkSaccount;
 
-class ActionHistory {
+class ActionHistory 
+{
     // Database connection
     private $database;
 

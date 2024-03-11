@@ -11,19 +11,11 @@ namespace Stanleysie\HkSaccount;
 
 class Invoice
 {
-    /**
-     * database
-     *
-     * @var object
-     */
+    // Database connection
     private $database;
 
-    /**
-     * initialize
-     */
-    public function __construct($db = null)
-    {
-        $this->database = $db;
+    public function __construct($database) {
+        $this->database = $database;
     }
 
     /**
